@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vue优点</title>
+	<script src="./vue.js"></script>
+</head>
+<body>
+	
+	<div id="app">
+		<div id="test">{{test}}</div>
+	</div>
+
+	<script>
+		// var dom = document.getElementById('test')
+		// dom.innerHTML = 'hello 我要自学网'
+       var app = new Vue({
+       	el:"#app",
+       	data:{
+       		test:'hello 我要自学网'
+       	}
+
+       })
+	</script>
+</body>
+</html>
